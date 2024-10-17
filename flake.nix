@@ -17,7 +17,13 @@
       ];
     };
     nodes = {
-      aurora = "locahost";
+      # todo(py, 18/11/24): actually set these up/use actual nodes.
+      aurora = "localhost";
+      artemis = "localhost";
+      hecate = "localhost";
+      luna = "localhost";
+      nemesis = "localhost";
+      nyx = "localhost";
     };
     profiles = {
       base = {
